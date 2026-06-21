@@ -18,4 +18,8 @@
     ans : every user have different needs the site manager working sun need huge buttons and offline saving and other end payroll operator need a warning set if it finds any errors it alerts for fast checking 
   ## q4 : What happened the last two times broken code reached production? Those specific failures should drive your test priorities — not a generic risk matrix.
      ans: the first crash happened because developer forgot to add the database link to live server and the second one broke because of small typo mistake in the backend
-  ## q5 : 
+  ## q5 : If you removed your project name and replaced it with 'Any HRMS,' would the strategy still read the same? If yes, it's a template, not a strategy.
+    ans : if we remove project name and replace it with any "HRMS" this entire strategy would fail complely
+  ## q6 : Who on the team pushes back against QA? What's their reasoning? If your strategy doesn't account for the senior dev who thinks testing is overhead, it will fail — not technically, but culturally.
+    ans : the senior dev is fighting this because he hates slow tests that block him shipping fast . the best way to solve this is to keep things simple by running a quick test check using CI/CD pipelines
+    
