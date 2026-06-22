@@ -1,1 +1,16 @@
-
+ ## What does this HRMS exist to deliver, and to whom? Not a feature list — the single output everything flows toward, and the person who depends on it most.
+ ans : this HRMS exist to deliver the correct monthly payslip to the constuction workers whose life is depende on it and every thing in system exist only to print a        correct payslip to them according to their work if system fails they face financial crisis
+ ## What is the single most dangerous bug pattern you found across your testing? Not the worst individual bug — the pattern that could appear in multiple places. Why is it dangerous?
+ ans : the most dangerous bugs are like overtime hour login , new joiner onboarding failure , exit employee recognition and lastly most critical during the                  calculation of payslip because these can effect both the construction worker and the company
+  ## Which test in your suite are you most proud of, and why? What specific production failure would it prevent? Who would it protect?
+ ans : building the automation testing pipelines to decrease the occurance bugs in system and making it fast and safe to push it into production and it prevent the miscalculation at the time of payslip at the month end thats what im most proud of 
+  ## What did you choose NOT to automate, and why was that the right call? Not what was too hard — what wasn't worth it.
+  ans: i choose not to automate the frontend or UI because it does effect the system much and have zero impact during the payslip generstion , and it dosent need much mainatanence from my side i think its a right choice
+  ## What's one thing in your submission that you're not fully confident about, and why you included it anyway?
+  ans : im not comfident how the system would work during no network and how it works during that time but i included it anyway because at offline sites that data is very crusial
+  ## What changed between your first approach and your final submission? What did you rewrite, and why?
+  ans : at first approach i thought of only creating test cases by automating which prevent system from crashing and the more i deep into it i learn that how data is       imporant and how to handle and if any errors happens how it will affect the whole system 
+  ## What do you not know about quality engineering — or about construction payroll — that you would need to learn before you could truly do this job? Name 2–3 specific things, not generic ones.
+   ans : as a quality engineer i need to how system is handing missing values during the payslip calculaton and how to keep the data more integrty and secure during tranmission and how the payslip is being calculated what are the things we are considering during the logging in and data calculation . and most importantly how the calculations differ from regualr workers and temporary workers
+   ## If you had one more day, what would you test that you didn't get to? Why is it important, and who would it protect?
+   ans: if i have extra time i mainly focus on how database backup is working and how it behave when an issue occured like datalost during transmission how can it recover fron the data loss and what steps are taken to prevent it from happening and if that happened the affected person would be construction workers 
